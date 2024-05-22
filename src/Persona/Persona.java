@@ -15,11 +15,8 @@ public class Persona {
         this.apellidos = apellidos;
         this.fechaNacimiento = fechaNacimiento;
         this.contraseña = contrasena;
-        System.out.println("Hola");
     }
 
-
-    
     public String toString() {
         return "Nombre: " + nombre + " | Apellidos: " + apellidos + " | Edad: " + calcularEdad();
     }
